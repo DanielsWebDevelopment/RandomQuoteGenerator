@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #EDFCD0;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 60px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 14px 24px rgba(0,0,0,0.5);
+    max-width: 650px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 42px;
+  }
+  
+  .author_name h3 {
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .authors_quote {
+    padding: 50px 80px;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .new_quote-btn button {
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 10px 24px rgba(0,0,0,0.2);
+  }
+  
+  .new_quote-btn button:hover {
+    margin-left: 10px;
+  }
